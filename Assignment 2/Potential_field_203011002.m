@@ -10,9 +10,9 @@ obs1                 = [1 0;1 2;3 0;1 0.5;1 1.5;1.5 0;2.5 0;2 1;2.5 0.5;1.5 1.5]
 obs2                 = [4 1;2 3;5 2;2.5 2.5;3 2;3.7 1.2;4.5 1.5;4.5 2.2;3.5 2.5;2.8 2.8]       ;% Obstacle2 Coordinate = [x-axis y-axis]
 p_goal               = [5 3]               ;% Target Coordinate = [x-axis y-axis]
 Step_Size            = 0.1                 ;% Radius of Circle for Artificial Points
-Obstacle             = 0.8                 ;% Obstacle = Alpha Obstacle = 0.8
+Obstacle             = 1.2                 ;% Obstacle = Alpha Obstacle = 0.8
 Q_rep_obs            = 2                   ;% Q*_obs = 2
-Goal                 = 0.8                 ;% Target   = Alpha Goal = 0.8
+Goal                 = 1.2                 ;% Target   = Alpha Goal = 0.8
 d_att_goal           = 2                   ;% d*_goal = 2
 Confirm_Message      = 'Solution Exists'   ;% Message Displayed if a Good Artificial Point Exists
 Error_Message        = 'No Solution Exists';% Message Displayed if no Good Artificial Point Exists
